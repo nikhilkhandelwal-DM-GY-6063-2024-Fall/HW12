@@ -27,7 +27,7 @@ If the user makes a mistake at any step:
 
 ## **Circuit Connections**
 
-
+[!Circuit Diagram](https://github.com/nikhilkhandelwal-DM-GY-6063-2024-Fall/HW12/blob/main/circuit_diagram.png)
 
 ---
 
@@ -51,5 +51,3 @@ If the user makes a mistake at any step:
 
 4. **Failure**:
    - Red LED blinks **3 times**, and the sequence resets.
-
----
