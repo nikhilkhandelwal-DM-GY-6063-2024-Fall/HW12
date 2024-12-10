@@ -27,7 +27,7 @@ If the user makes a mistake at any step:
 
 ## **Circuit Connections**
 
-[!Circuit Diagram](https://github.com/nikhilkhandelwal-DM-GY-6063-2024-Fall/HW12/blob/main/circuit_diagram.png)
+![Circuit Diagram](https://github.com/nikhilkhandelwal-DM-GY-6063-2024-Fall/HW12/blob/main/circuit_diagram.png)
 
 ---
 
