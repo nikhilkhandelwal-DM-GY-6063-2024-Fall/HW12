@@ -1,22 +1,18 @@
-// Pin Definitions
-const int potPin = A0;         // Potentiometer pin
-const int button1Pin = 2;      // Push button 1 pin
-const int button2Pin = 3;      // Push button 2 pin
-const int greenLEDPin = 9;     // Green LED pin for success
-const int redLEDPin = 10;      // Red LED pin for failure
+const int potPin = A0;
+const int button1Pin = 2;  
+const int button2Pin = 3;    
+const int greenLEDPin = 9;     
+const int redLEDPin = 10;     
 
-// Variables
 int currentStep = 0;           // Tracks the user's progress in the password sequence
 
 void setup() {
-  // Pin Modes
   pinMode(potPin, INPUT);
   pinMode(button1Pin, INPUT_PULLUP);  // Pull-up resistor for Button 1
   pinMode(button2Pin, INPUT_PULLUP);  // Pull-up resistor for Button 2
   pinMode(greenLEDPin, OUTPUT);
   pinMode(redLEDPin, OUTPUT);
 
-  // Initialize Serial Monitor for Debugging
   Serial.begin(9600);
 }
 
@@ -88,7 +84,7 @@ void loop() {
 void signalSuccess() {
   Serial.println("Password Correct! Success.");
   digitalWrite(greenLEDPin, HIGH);  // Turn on green LED
-  delay(1000);
+  delay(2000);
   digitalWrite(greenLEDPin, LOW);   // Turn off green LED
 }
 
